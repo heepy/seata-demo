@@ -1,0 +1,28 @@
+server:
+  port: 8102
+#====================================stream =============================================
+spring:
+  datasource:
+    driver-class-name: com.alibaba.druid.proxy.DruidDriver
+    url: jdbc:mysql://139.129.90.200:3306/seata_account?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+    username: root
+    password: zhr_sql_A1
+  application:
+    name: dubbo-account-example
+
+#====================================Dubbo config===============================================
+dubbo:
+  application:
+    id: dubbo-account-example
+    name: dubbo-account-example
+    qosEnable: false
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: 20883
+  registry:
+    id: zookeeper
+    address: zookeeper://139.129.90.200:2181
+  provider:
+    register: true
+

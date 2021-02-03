@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/seata-accout-service-demo/seata-accout-service-demo.iml" filepath="$PROJECT_DIR$/seata-accout-service-demo/seata-accout-service-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-business-service-demo/seata-business-service-demo.iml" filepath="$PROJECT_DIR$/seata-business-service-demo/seata-business-service-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-common-demo/seata-common-demo.iml" filepath="$PROJECT_DIR$/seata-common-demo/seata-common-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-demo.iml" filepath="$PROJECT_DIR$/seata-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-order-service-demo/seata-order-service-demo.iml" filepath="$PROJECT_DIR$/seata-order-service-demo/seata-order-service-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-storage-service-demo/seata-storage-service-demo.iml" filepath="$PROJECT_DIR$/seata-storage-service-demo/seata-storage-service-demo.iml" />
+    </modules>
+  </component>
+</project>
