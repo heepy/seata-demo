@@ -36,7 +36,9 @@ public class IStorageServiceImpl implements IStorageService {
         response.setMessage(RspStatusEnum.SUCCESS.getMessage());
         return response;
     }
-    public ObjectResponse addCommodity(CommodityPo commodityPo){
+
+    @Override
+    public ObjectResponse addStorage(CommodityPo commodityPo) {
         ObjectResponse response=new ObjectResponse();
         try {
             storageMapper.addCommodityCode(commodityPo);
@@ -48,4 +50,6 @@ public class IStorageServiceImpl implements IStorageService {
         response.setMessage(RspStatusEnum.SUCCESS.getMessage());
         return response;
     }
+
+
 }

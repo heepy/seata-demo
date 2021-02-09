@@ -1,15 +1,18 @@
 server:
-  port: 8083
+  port: 8085
 
 #====================================stream =============================================
 spring:
   datasource:
-    driver-class-name: com.alibaba.druid.proxy.DruidDriver
-    url: jdbc:mysql://139.129.90.200:3306/seata-order?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://139.129.90.200:3306/seata_order?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
     username: root
     password: zhr_sql_A1
+    type: com.alibaba.druid.pool.DruidDataSource
   application:
     name: dubbo-order-example
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
 
 #====================================Dubbo config===============================================
 dubbo:

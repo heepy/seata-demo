@@ -13,4 +13,5 @@ public interface StorageService {
      * 扣减库存
      */
     ObjectResponse decreaseStorage(Commodity commodity);
+
 }

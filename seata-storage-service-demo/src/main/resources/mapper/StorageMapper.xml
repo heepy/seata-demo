@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="io.seata.samples.integration.storage.mapper.TStorageMapper">
+<mapper namespace="com.dubbo.seatastorageservicedemo.mapper.StorageMapper">
 
     <!-- 开启二级缓存 -->
     <!--<cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>-->
@@ -25,6 +25,6 @@
         select count from stroage_tbl where commdity_code=#{commodityCode}
     </select>
     <insert id="addCommodityCode" useGeneratedKeys="true" parameterType="com.dubbo.seatastorageservicedemo.entity.CommodityPo">
-         insert into order_tbl(id,commodity_code,name,count) values(null,#{commodityPo.commodityCode},#{commodityPo.name},#{commodityPo.count})
+         insert into storage_tbl(id,commodity_code,name,count) values(null,#{commodityPo.commodityCode},#{commodityPo.name},#{commodityPo.count})
     </insert>
 </mapper>

@@ -1,5 +1,6 @@
 package com.dubbo.seataaccoutservicedemo.dubbo;
 
+import com.dubbo.seataaccoutservicedemo.entity.AccountPo;
 import com.dubbo.seataaccoutservicedemo.service.ITAccountService;
 import com.dubbo.seatacommondemo.dto.Account;
 import com.dubbo.seatacommondemo.dubbo.AccountService;
@@ -17,8 +18,10 @@ public class AccountServiceImpl implements AccountService {
     private ITAccountService itAccountService;
     @Override
     public ObjectResponse decreaseAccount(Account account) {
-
-        itAccountService.decreaseAccount(account);
+        AccountPo accountPo=new AccountPo();
+        accountPo.setAmount(account.getAmount().doubleValue());
+        accountPo.setUserId(account.getUserId());
+         itAccountService.decreaseAccount(accountPo);
 
         return null;
     }

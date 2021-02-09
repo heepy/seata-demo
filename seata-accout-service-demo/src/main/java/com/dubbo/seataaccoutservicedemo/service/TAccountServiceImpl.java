@@ -1,8 +1,9 @@
 package com.dubbo.seataaccoutservicedemo.service;
 
 
+import com.dubbo.seataaccoutservicedemo.entity.AccountPo;
 import com.dubbo.seataaccoutservicedemo.mapper.AccountMapper;
-import com.dubbo.seatacommondemo.dto.Account;
+
 import com.dubbo.seatacommondemo.enums.RspStatusEnum;
 import com.dubbo.seatacommondemo.response.ObjectResponse;
 
@@ -25,9 +26,11 @@ public class TAccountServiceImpl implements ITAccountService {
 
 
 
+
+
     @Override
-    public ObjectResponse decreaseAccount(Account accountDTO) {
-        int account = accountMapper.decreaseAccount(accountDTO.getUserId(), accountDTO.getAmount().doubleValue());
+    public ObjectResponse decreaseAccount(AccountPo accountPoDTO) {
+        int account = accountMapper.decreaseAccount(accountPoDTO.getUserId(), accountPoDTO.getAmount().doubleValue());
         ObjectResponse<Object> response = new ObjectResponse<>();
         if (account > 0){
             response.setStatus(RspStatusEnum.SUCCESS.getCode());
@@ -38,6 +41,13 @@ public class TAccountServiceImpl implements ITAccountService {
         response.setStatus(RspStatusEnum.FAIL.getCode());
         response.setMessage(RspStatusEnum.FAIL.getMessage());
         return response;
+    }
 
+    @Override
+    public ObjectResponse addAccount(AccountPo accountPo) {
+
+        accountMapper.addAccount(accountPo);
+
+        return null;
     }
 }

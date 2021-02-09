@@ -22,20 +22,22 @@ public class IOrderServiceImpl implements IOrderService {
     private AccountService accountService;
     @Autowired
     private OrderMapper orderMapper;
+
+
     @Override
     public ObjectResponse createOrder(Order orderDto) {
        ObjectResponse response=new ObjectResponse();
         Account account=new Account();
-        account.setUserId(orderDto.userId);
-        account.setAmount(orderDto.amount);
+        account.setUserId(orderDto.getUserId());
+        account.setAmount(orderDto.getAmount());
 
         ObjectResponse objectResponse=accountService.decreaseAccount(account);
         log.info("调用结果",objectResponse);
         OrderPo orderPo=new OrderPo();
-        orderPo.setUserId(orderDto.userId);
-        orderPo.setAmount(orderDto.amount);
-        orderPo.setCommodityCode(orderDto.commodityCode);
-        orderPo.setCount(orderDto.count);
+        orderPo.setUserId(orderDto.getUserId());
+        orderPo.setAmount(orderDto.getAmount());
+        orderPo.setCommodityCode(orderDto.getCommodityCode());
+        orderPo.setCount(orderDto.getCount());
         try {
             orderMapper.createOrder(orderPo);
         } catch (Exception e) {

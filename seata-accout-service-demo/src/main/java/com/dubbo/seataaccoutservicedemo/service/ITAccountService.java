@@ -1,6 +1,7 @@
 package com.dubbo.seataaccoutservicedemo.service;
 
-import com.dubbo.seatacommondemo.dto.Account;
+
+import com.dubbo.seataaccoutservicedemo.entity.AccountPo;
 import com.dubbo.seatacommondemo.response.ObjectResponse;
 
 /**
@@ -16,5 +17,9 @@ public interface ITAccountService{
     /**
      * 扣用户钱
      */
-    ObjectResponse decreaseAccount(Account accountDTO);
+    ObjectResponse decreaseAccount(AccountPo accountDTO);
+    /**
+     * 添加用户
+     */
+    ObjectResponse addAccount(AccountPo accountPo);
 }

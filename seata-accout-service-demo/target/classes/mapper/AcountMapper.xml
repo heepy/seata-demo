@@ -6,7 +6,7 @@
     <!--<cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>-->
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.dubbo.seataaccoutservicedemo.entity.Account">
+    <resultMap id="BaseResultMap" type="com.dubbo.seataaccoutservicedemo.entity.AccountPo">
         <id column="id" property="id" />
         <result column="user_id" property="userId" />
         <result column="amount" property="amount" />
@@ -19,5 +19,7 @@
     <update id="decreaseAccount">
       update account_tbl set amount = amount-${amount} where user_id = #{userId}
     </update>
-
+    <insert id="addAccount" useGeneratedKeys="true" parameterType="com.dubbo.seataaccoutservicedemo.entity.AccountPo">
+       insert into account_tbl(id,user_id,amount) values(null,#{account.userId},#{account.amount})
+    </insert>
 </mapper>
