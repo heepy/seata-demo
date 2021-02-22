@@ -2,77 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="475f4847-9fb2-435a-83fc-13be18766d17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_73.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ben_manes_caffeine_caffeine_2_8_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_seata_seata_all_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_seata_seata_spring_boot_starter_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-accout-service-demo/src/main/java/com/dubbo/seataaccoutservicedemo/controller/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-business-service-demo/src/main/java/com/dubbo/seatabusinessservicedemo/controller/BusinessController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-business-service-demo/src/main/java/com/dubbo/seatabusinessservicedemo/service/BusinessServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-business-service-demo/src/main/java/com/dubbo/seatabusinessservicedemo/service/IBussinessService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service-demo/src/main/java/com/dubbo/seatastorageservicedemo/config/Constant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-accout-service-demo/seata-accout-service-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-accout-service-demo/seata-accout-service-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-accout-service-demo/src/main/java/com/dubbo/seataaccoutservicedemo/dubbo/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-accout-service-demo/src/main/java/com/dubbo/seataaccoutservicedemo/dubbo/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-accout-service-demo/src/main/java/com/dubbo/seataaccoutservicedemo/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-accout-service-demo/src/main/java/com/dubbo/seataaccoutservicedemo/entity/AccountPo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-accout-service-demo/src/main/java/com/dubbo/seataaccoutservicedemo/mapper/AccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-accout-service-demo/src/main/java/com/dubbo/seataaccoutservicedemo/mapper/AccountMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-accout-service-demo/src/main/java/com/dubbo/seataaccoutservicedemo/service/ITAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-accout-service-demo/src/main/java/com/dubbo/seataaccoutservicedemo/service/ITAccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-accout-service-demo/src/main/java/com/dubbo/seataaccoutservicedemo/service/TAccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-accout-service-demo/src/main/java/com/dubbo/seataaccoutservicedemo/service/TAccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-accout-service-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-accout-service-demo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-accout-service-demo/src/main/resources/mapper/AcountMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-accout-service-demo/src/main/resources/mapper/AcountMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-accout-service-demo/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-accout-service-demo/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-accout-service-demo/target/classes/com/dubbo/seataaccoutservicedemo/dubbo/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/seata-accout-service-demo/target/classes/com/dubbo/seataaccoutservicedemo/dubbo/AccountServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-accout-service-demo/target/classes/com/dubbo/seataaccoutservicedemo/entity/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-accout-service-demo/target/classes/com/dubbo/seataaccoutservicedemo/mapper/AccountMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/seata-accout-service-demo/target/classes/com/dubbo/seataaccoutservicedemo/mapper/AccountMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-accout-service-demo/target/classes/com/dubbo/seataaccoutservicedemo/service/ITAccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/seata-accout-service-demo/target/classes/com/dubbo/seataaccoutservicedemo/service/ITAccountService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-accout-service-demo/target/classes/com/dubbo/seataaccoutservicedemo/service/TAccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/seata-accout-service-demo/target/classes/com/dubbo/seataaccoutservicedemo/service/TAccountServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-accout-service-demo/target/classes/mapper/AcountMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-accout-service-demo/target/classes/mapper/AcountMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/seata-business-service-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-business-service-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-business-service-demo/seata-business-service-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-business-service-demo/seata-business-service-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-business-service-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/seata-business-service-demo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-business-service-demo/src/test/java/com/dubbo/seatabusinessservicedemo/SeataBusinessServiceDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-business-service-demo/src/test/java/com/dubbo/seatabusinessservicedemo/SeataBusinessServiceImplDemoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-common-demo/src/main/java/com/dubbo/seatacommondemo/dto/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-common-demo/src/main/java/com/dubbo/seatacommondemo/dto/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-common-demo/src/main/java/com/dubbo/seatacommondemo/dubbo/StorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-common-demo/src/main/java/com/dubbo/seatacommondemo/dubbo/StorageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-common-demo/target/classes/com/dubbo/seatacommondemo/dto/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/seata-common-demo/target/classes/com/dubbo/seatacommondemo/dto/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-common-demo/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-common-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-common-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-common-demo/target/seata-common-demo-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-common-demo/target/seata-common-demo-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-order-service-demo/seata-order-service-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-order-service-demo/seata-order-service-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-order-service-demo/src/main/java/com/dubbo/seataorderservicedemo/service/IOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-order-service-demo/src/main/java/com/dubbo/seataorderservicedemo/service/IOrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-order-service-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-order-service-demo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-order-service-demo/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-order-service-demo/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-order-service-demo/target/classes/com/dubbo/seataorderservicedemo/service/IOrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/seata-order-service-demo/target/classes/com/dubbo/seataorderservicedemo/service/IOrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-storage-service-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-storage-service-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-storage-service-demo/seata-storage-service-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-storage-service-demo/seata-storage-service-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-storage-service-demo/src/main/java/com/dubbo/seatastorageservicedemo/controller/StorageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-storage-service-demo/src/main/java/com/dubbo/seatastorageservicedemo/controller/StorageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-storage-service-demo/src/main/java/com/dubbo/seatastorageservicedemo/dubbo/StorageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-storage-service-demo/src/main/java/com/dubbo/seatastorageservicedemo/dubbo/StorageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-storage-service-demo/src/main/java/com/dubbo/seatastorageservicedemo/service/IStorageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-storage-service-demo/src/main/java/com/dubbo/seatastorageservicedemo/service/IStorageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-storage-service-demo/src/main/java/com/dubbo/seatastorageservicedemo/service/IStorageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/seata-storage-service-demo/src/main/java/com/dubbo/seatastorageservicedemo/service/IStorageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-storage-service-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-storage-service-demo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-storage-service-demo/src/main/resources/mapper/StorageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-storage-service-demo/src/main/resources/mapper/StorageMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-storage-service-demo/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-storage-service-demo/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-storage-service-demo/target/classes/com/dubbo/seatastorageservicedemo/mapper/StorageMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/seata-storage-service-demo/target/classes/com/dubbo/seatastorageservicedemo/mapper/StorageMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-storage-service-demo/target/classes/com/dubbo/seatastorageservicedemo/service/IStorageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/seata-storage-service-demo/target/classes/com/dubbo/seatastorageservicedemo/service/IStorageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-storage-service-demo/target/classes/com/dubbo/seatastorageservicedemo/service/IStorageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/seata-storage-service-demo/target/classes/com/dubbo/seatastorageservicedemo/service/IStorageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seata-storage-service-demo/target/classes/mapper/StorageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-storage-service-demo/target/classes/mapper/StorageMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seata-business-service-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/seata-business-service-demo/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,8 +157,18 @@
       <workItem from="1612840032154" duration="663000" />
       <workItem from="1612850359132" duration="598000" />
       <workItem from="1612852191650" duration="21000" />
-      <workItem from="1612852238750" duration="1772000" />
+      <workItem from="1612852238750" duration="2939000" />
+      <workItem from="1613626541199" duration="6369000" />
+      <workItem from="1613717161309" duration="28940000" />
     </task>
+    <task id="LOCAL-00001" summary="feat：完成一些功能">
+      <created>1612858290898</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612858290898</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,10 +184,25 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/seata-demo" />
     </ignored-roots>
+    <MESSAGE value="feat：完成一些功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat：完成一些功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="233" key="#com.intellij.ide.util.MemberChooser" timestamp="1612685174982">
@@ -259,6 +217,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1611632216350" />
+    <state x="370" y="137" key="CommitChangelistDialog2" timestamp="1612858287357">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="370" y="137" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1612858287357" />
     <state x="100" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1612676264005">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -267,54 +229,62 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="298" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1611821347310" />
-    <state width="1877" height="495" key="GridCell.Tab.0.bottom" timestamp="1612771874711">
+    <state width="1877" height="501" key="GridCell.Tab.0.bottom" timestamp="1613975886024">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="495" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1612771874711" />
-    <state width="1877" height="495" key="GridCell.Tab.0.center" timestamp="1612771874711">
+    <state width="1493" height="495" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1613718598112" />
+    <state width="1877" height="501" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1613975886024" />
+    <state width="1877" height="501" key="GridCell.Tab.0.center" timestamp="1613975886024">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="495" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1612771874711" />
-    <state width="1877" height="495" key="GridCell.Tab.0.left" timestamp="1612771874711">
+    <state width="1493" height="495" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1613718598111" />
+    <state width="1877" height="501" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1613975886024" />
+    <state width="1877" height="501" key="GridCell.Tab.0.left" timestamp="1613975886024">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="495" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1612771874711" />
-    <state width="1877" height="495" key="GridCell.Tab.0.right" timestamp="1612771874711">
+    <state width="1493" height="495" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1613718598110" />
+    <state width="1877" height="501" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1613975886024" />
+    <state width="1877" height="501" key="GridCell.Tab.0.right" timestamp="1613975886024">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="495" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1612771874711" />
-    <state width="1877" height="495" key="GridCell.Tab.1.bottom" timestamp="1612771874711">
+    <state width="1493" height="495" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1613718598111" />
+    <state width="1877" height="501" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1613975886024" />
+    <state width="1877" height="501" key="GridCell.Tab.1.bottom" timestamp="1613975886024">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="495" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1612771874711" />
-    <state width="1877" height="495" key="GridCell.Tab.1.center" timestamp="1612771874711">
+    <state width="1493" height="495" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1613718598115" />
+    <state width="1877" height="501" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1613975886024" />
+    <state width="1877" height="501" key="GridCell.Tab.1.center" timestamp="1613975886024">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="495" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1612771874711" />
-    <state width="1877" height="495" key="GridCell.Tab.1.left" timestamp="1612771874711">
+    <state width="1493" height="495" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1613718598114" />
+    <state width="1877" height="501" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1613975886024" />
+    <state width="1877" height="501" key="GridCell.Tab.1.left" timestamp="1613975886024">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="495" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1612771874711" />
-    <state width="1877" height="495" key="GridCell.Tab.1.right" timestamp="1612771874711">
+    <state width="1493" height="495" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1613718598113" />
+    <state width="1877" height="501" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1613975886024" />
+    <state width="1877" height="501" key="GridCell.Tab.1.right" timestamp="1613975886024">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="495" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1612771874711" />
-    <state width="1877" height="501" key="GridCell.Tab.2.bottom" timestamp="1612677009255">
+    <state width="1493" height="495" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1613718598114" />
+    <state width="1877" height="501" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1613975886024" />
+    <state width="1877" height="501" key="GridCell.Tab.2.bottom" timestamp="1613975886024">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="501" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1612677009255" />
-    <state width="1877" height="501" key="GridCell.Tab.2.center" timestamp="1612677009255">
+    <state width="1877" height="501" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1613975886024" />
+    <state width="1877" height="501" key="GridCell.Tab.2.center" timestamp="1613975886024">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="501" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1612677009255" />
-    <state width="1877" height="501" key="GridCell.Tab.2.left" timestamp="1612677009255">
+    <state width="1877" height="501" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1613975886024" />
+    <state width="1877" height="501" key="GridCell.Tab.2.left" timestamp="1613975886024">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="501" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1612677009255" />
-    <state width="1877" height="501" key="GridCell.Tab.2.right" timestamp="1612677009255">
+    <state width="1877" height="501" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1613975886024" />
+    <state width="1877" height="501" key="GridCell.Tab.2.right" timestamp="1613975886024">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="501" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1612677009255" />
+    <state width="1877" height="501" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1613975886024" />
     <state x="490" y="198" key="Maven.ArtifactSearchDialog" timestamp="1611728343776">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -323,10 +293,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="463" y="185" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1612320135138" />
-    <state x="652" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1612852240008">
+    <state x="652" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1613717163078">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="652" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1612852240008" />
+    <state x="652" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1613717163078" />
     <state x="721" y="182" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1612334942241">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -348,26 +318,84 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/seata-storage-service-demo/src/main/java/com/dubbo/seatastorageservicedemo/service/IStorageServiceImpl.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="2" />
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-all/1.4.0/seata-all-1.4.0.jar!/io/seata/spring/annotation/GlobalTransactionScanner.class</url>
+          <line>82</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/seata-storage-service-demo/src/main/java/com/dubbo/seatastorageservicedemo/service/IStorageServiceImpl.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/seata-storage-service-demo/src/main/java/com/dubbo/seatastorageservicedemo/service/IStorageServiceImpl.java</url>
-          <line>48</line>
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-all/1.4.0/seata-all-1.4.0.jar!/io/seata/config/ConfigurationFactory.class</url>
+          <line>120</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/seata-storage-service-demo/src/main/java/com/dubbo/seatastorageservicedemo/service/IStorageServiceImpl.java</url>
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-all/1.4.0/seata-all-1.4.0.jar!/io/seata/config/ConfigurationFactory.class</url>
+          <line>91</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-all/1.4.0/seata-all-1.4.0.jar!/io/seata/config/ConfigurationFactory.class</url>
+          <line>95</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-all/1.4.0/seata-all-1.4.0.jar!/io/seata/spring/annotation/GlobalTransactionScanner.class</url>
+          <line>87</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-all/1.4.0/seata-all-1.4.0.jar!/io/seata/config/ConfigurationFactory.class</url>
+          <line>45</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-all/1.4.0/seata-all-1.4.0.jar!/io/seata/config/ConfigurationFactory.class</url>
+          <line>46</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-all/1.4.0/seata-all-1.4.0.jar!/io/seata/config/ConfigurationFactory.class</url>
           <line>49</line>
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-spring-boot-starter/1.4.0/seata-spring-boot-starter-1.4.0.jar!/io/seata/spring/boot/autoconfigure/provider/SpringBootConfigurationProvider.class</url>
+          <line>43</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-spring-boot-starter/1.4.0/seata-spring-boot-starter-1.4.0.jar!/io/seata/spring/boot/autoconfigure/provider/SpringBootConfigurationProvider.class</url>
+          <line>32</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-spring-boot-starter/1.4.0/seata-spring-boot-starter-1.4.0.jar!/io/seata/spring/boot/autoconfigure/provider/SpringBootConfigurationProvider.class</url>
+          <line>52</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-spring-boot-starter/1.4.0/seata-spring-boot-starter-1.4.0.jar!/io/seata/spring/boot/autoconfigure/provider/SpringBootConfigurationProvider.class</url>
+          <line>34</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-spring-boot-starter/1.4.0/seata-spring-boot-starter-1.4.0.jar!/io/seata/spring/boot/autoconfigure/provider/SpringBootConfigurationProvider.class</url>
+          <line>36</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-spring-boot-starter/1.4.0/seata-spring-boot-starter-1.4.0.jar!/io/seata/spring/boot/autoconfigure/provider/SpringBootConfigurationProvider.class</url>
+          <line>38</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-spring-boot-starter/1.4.0/seata-spring-boot-starter-1.4.0.jar!/io/seata/spring/boot/autoconfigure/provider/SpringBootConfigurationProvider.class</url>
+          <line>40</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/seata_demo$SeataBusinessServiceDemoApplication.ic" NAME="SeataBusinessServiceDemoApplication Coverage Results" MODIFIED="1613810554765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

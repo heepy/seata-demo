@@ -1,6 +1,5 @@
 server:
   port: 8104
-
 spring:
   application:
     name: dubbo-business-example
@@ -21,33 +20,33 @@ dubbo:
 seata:
   enabled: true
   application-id: business-seata-example
-  tx-service-group: business-service-seata-service-group # ÊÂÎñÈº×é£¨¿ÉÒÔÃ¿¸öÓ¦ÓÃ¶ÀÁ¢È¡Ãû£¬Ò²¿ÉÒÔÊ¹ÓÃÏàÍ¬µÄÃû×Ö£©
+  tx-service-group: business-service-seata-service-group # äº‹åŠ¡ç¾¤ç»„ï¼ˆå¯ä»¥æ¯ä¸ªåº”ç”¨ç‹¬ç«‹å–åï¼Œä¹Ÿå¯ä»¥ä½¿ç”¨ç›¸åŒçš„åå­—ï¼‰
   client:
     rm-report-success-enable: true
-    rm-table-meta-check-enable: false # ×Ô¶¯Ë¢ĞÂ»º´æÖĞµÄ±í½á¹¹£¨Ä¬ÈÏfalse£©
-    rm-report-retry-count: 5 # Ò»½×¶Î½á¹ûÉÏ±¨TCÖØÊÔ´ÎÊı£¨Ä¬ÈÏ5£©
-    rm-async-commit-buffer-limit: 10000 # Òì²½Ìá½»»º´æ¶ÓÁĞ³¤¶È£¨Ä¬ÈÏ10000£©
+    rm-table-meta-check-enable: false # è‡ªåŠ¨åˆ·æ–°ç¼“å­˜ä¸­çš„è¡¨ç»“æ„ï¼ˆé»˜è®¤falseï¼‰
+    rm-report-retry-count: 5 # ä¸€é˜¶æ®µç»“æœä¸ŠæŠ¥TCé‡è¯•æ¬¡æ•°ï¼ˆé»˜è®¤5ï¼‰
+    rm-async-commit-buffer-limit: 10000 # å¼‚æ­¥æäº¤ç¼“å­˜é˜Ÿåˆ—é•¿åº¦ï¼ˆé»˜è®¤10000ï¼‰
     rm:
       lock:
-        lock-retry-internal: 10 # Ğ£Ñé»òÕ¼ÓÃÈ«¾ÖËøÖØÊÔ¼ä¸ô£¨Ä¬ÈÏ10ms£©
-        lock-retry-times:    30 # Ğ£Ñé»òÕ¼ÓÃÈ«¾ÖËøÖØÊÔ´ÎÊı£¨Ä¬ÈÏ30£©
-        lock-retry-policy-branch-rollback-on-conflict: true # ·ÖÖ§ÊÂÎñÓëÆäËüÈ«¾Ö»Ø¹öÊÂÎñ³åÍ»Ê±Ëø²ßÂÔ£¨ÓÅÏÈÊÍ·Å±¾µØËøÈÃ»Ø¹ö³É¹¦£©
-    tm-commit-retry-count:   3 # Ò»½×¶ÎÈ«¾ÖÌá½»½á¹ûÉÏ±¨TCÖØÊÔ´ÎÊı£¨Ä¬ÈÏ1´Î£¬½¨Òé´óÓÚ1£©
-    tm-rollback-retry-count: 3 # Ò»½×¶ÎÈ«¾Ö»Ø¹ö½á¹ûÉÏ±¨TCÖØÊÔ´ÎÊı£¨Ä¬ÈÏ1´Î£¬½¨Òé´óÓÚ1£©
+        lock-retry-internal: 10 # æ ¡éªŒæˆ–å ç”¨å…¨å±€é”é‡è¯•é—´éš”ï¼ˆé»˜è®¤10msï¼‰
+        lock-retry-times:    30 # æ ¡éªŒæˆ–å ç”¨å…¨å±€é”é‡è¯•æ¬¡æ•°ï¼ˆé»˜è®¤30ï¼‰
+        lock-retry-policy-branch-rollback-on-conflict: true # åˆ†æ”¯äº‹åŠ¡ä¸å…¶å®ƒå…¨å±€å›æ»šäº‹åŠ¡å†²çªæ—¶é”ç­–ç•¥ï¼ˆä¼˜å…ˆé‡Šæ”¾æœ¬åœ°é”è®©å›æ»šæˆåŠŸï¼‰
+    tm-commit-retry-count:   3 # ä¸€é˜¶æ®µå…¨å±€æäº¤ç»“æœä¸ŠæŠ¥TCé‡è¯•æ¬¡æ•°ï¼ˆé»˜è®¤1æ¬¡ï¼Œå»ºè®®å¤§äº1ï¼‰
+    tm-rollback-retry-count: 3 # ä¸€é˜¶æ®µå…¨å±€å›æ»šç»“æœä¸ŠæŠ¥TCé‡è¯•æ¬¡æ•°ï¼ˆé»˜è®¤1æ¬¡ï¼Œå»ºè®®å¤§äº1ï¼‰
     undo:
-      undo-data-validation: true # ¶ş½×¶Î»Ø¹ö¾µÏñĞ£Ñé£¨Ä¬ÈÏtrue¿ªÆô£©
-      undo-log-serialization: jackson # undoĞòÁĞ»¯·½Ê½£¨Ä¬ÈÏjackson£©
-      undo-log-table: undo_log  # ×Ô¶¨Òåundo±íÃû£¨Ä¬ÈÏundo_log£©
+      undo-data-validation: true # äºŒé˜¶æ®µå›æ»šé•œåƒæ ¡éªŒï¼ˆé»˜è®¤trueå¼€å¯ï¼‰
+      undo-log-serialization: jackson # undoåºåˆ—åŒ–æ–¹å¼ï¼ˆé»˜è®¤jacksonï¼‰
+      undo-log-table: undo_log  # è‡ªå®šä¹‰undoè¡¨åï¼ˆé»˜è®¤undo_logï¼‰
     log:
-      exceptionRate: 100 # ÈÕÖ¾Òì³£Êä³ö¸ÅÂÊ£¨Ä¬ÈÏ100£©
+      exceptionRate: 100 # æ—¥å¿—å¼‚å¸¸è¾“å‡ºæ¦‚ç‡ï¼ˆé»˜è®¤100ï¼‰
     support:
       spring:
         datasource-autoproxy: true
   service:
     vgroup-mapping:
-      my_test_tx_group: default # TC ¼¯Èº£¨±ØĞëÓëseata-server±£³ÖÒ»ÖÂ£©
-    enable-degrade: false # ½µ¼¶¿ª¹Ø
-    disable-global-transaction: false # ½ûÓÃÈ«¾ÖÊÂÎñ£¨Ä¬ÈÏfalse£©
+      my_test_tx_group: default # TC é›†ç¾¤ï¼ˆå¿…é¡»ä¸seata-serverä¿æŒä¸€è‡´ï¼‰
+    enable-degrade: false # é™çº§å¼€å…³
+    disable-global-transaction: false # ç¦ç”¨å…¨å±€äº‹åŠ¡ï¼ˆé»˜è®¤falseï¼‰
     grouplist:
       default: 127.0.0.1:8091
   transport:
@@ -66,9 +65,19 @@ seata:
     heartbeat: true
     serialization: seata
     compressor: none
-    enable-client-batch-send-request: true # ¿Í»§¶ËÊÂÎñÏûÏ¢ÇëÇóÊÇ·ñÅúÁ¿ºÏ²¢·¢ËÍ£¨Ä¬ÈÏtrue£©
+    enable-client-batch-send-request: true # å®¢æˆ·ç«¯äº‹åŠ¡æ¶ˆæ¯è¯·æ±‚æ˜¯å¦æ‰¹é‡åˆå¹¶å‘é€ï¼ˆé»˜è®¤trueï¼‰
   registry:
+    file:
+      name: file.conf
+    type: zk
+
+    zk:
+      cluster:
+      connect-timeout: 2000
+      server-addr: 139.129.90.200:2181
+  config:
+    file:
+      name: file.conf
     type: zk
     zk:
       server-addr: 139.129.90.200:2181
-
